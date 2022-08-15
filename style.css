@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Buttons code */
+.simple-button {
+    background-color: #78f;
+    color: #34b;
+    font-size: 1vh;
+    border: 2px solid;
+    border-color: #56d;
+    border-radius: 3px;
+    -webkit-transition-duration: 100ms;
+    transition-duration: 100ms;
+}
+
+.simple-button:hover {
+    background-color: #56d;
+}
+
+.simple-button:active {
+    background-color: #34b;
+}
+/* Main div code */
+#main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5, 25%);
+    grid-auto-rows: 25vh;
+}
+
+#root {
+    height: 100vh;
+}
