@@ -2,33 +2,43 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+    background-color: #000;
+    background-image: url("background-image-2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
 /* Buttons code */
 .simple-button {
-    background-color: #78f;
-    color: #34b;
-    font-size: 1vh;
-    border: 2px solid;
-    border-color: #56d;
-    border-radius: 3px;
-    -webkit-transition-duration: 100ms;
-    transition-duration: 100ms;
+    background-color: #0000;
+    color: #fff;
+    font-size: 2vh;
+    border: 2px solid #fff;
+    border-radius: 5px;
 }
 
 .simple-button:hover {
-    background-color: #56d;
+    background-color: #fff2;
 }
 
 .simple-button:active {
-    background-color: #34b;
+    background-color: #fff4;
 }
 /* Main div code */
 #main {
     height: 100vh;
     display: grid;
-    grid-template-columns: repeat(5, 25%);
-    grid-auto-rows: 25vh;
+    grid-template-columns: repeat(10, 10%);
+    grid-auto-rows: 10vh;
 }
 
 #root {
     height: 100vh;
+}
+
+#button-1 {
+    grid-column: 5 / 7;
+    grid-row: 5 / 6;
 }

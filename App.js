@@ -24,7 +24,7 @@ class Button extends React.Component {
 function App() {
     //Buttons that will be on page
     return <div id="main">
-        
+        <Button id="button-1" text="Hello World"/>
     </div>
 }
 
