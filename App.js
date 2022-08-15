@@ -25,6 +25,7 @@ function App() {
     //Buttons that will be on page
     return <div id="main">
         <Button id="button-1" text="Hello World"/>
+        <Button id="button-info" text="Hello World"/>
     </div>
 }
 

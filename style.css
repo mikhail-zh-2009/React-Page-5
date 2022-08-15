@@ -30,8 +30,8 @@ body {
 #main {
     height: 100vh;
     display: grid;
-    grid-template-columns: repeat(10, 10%);
-    grid-auto-rows: 10vh;
+    grid-template-columns: repeat(20, 5%);
+    grid-auto-rows: 5vh;
 }
 
 #root {
@@ -39,6 +39,6 @@ body {
 }
 
 #button-1 {
-    grid-column: 5 / 7;
-    grid-row: 5 / 6;
+    grid-column: 10 / 12;
+    grid-row: 10 / 12;
 }
