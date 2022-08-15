@@ -39,6 +39,6 @@ body {
 }
 
 #button-1 {
-    grid-column: 10 / 12;
+    grid-column: 6 / 16;
     grid-row: 10 / 12;
 }

@@ -24,8 +24,8 @@ class Button extends React.Component {
 function App() {
     //Buttons that will be on page
     return <div id="main">
-        <Button id="button-1" text="Hello World"/>
-        <Button id="button-info" text="Hello World"/>
+        <Button id="button-1" text="Hello World" event={function() {}}/>
+        <Button id="button-info" text="Github" event={function(){window.open('https://github.com/mikhail-zh-2009/React-Page-5')}}/>
     </div>
 }
 
